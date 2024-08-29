@@ -34,6 +34,12 @@
   --fs-lg: 2rem;
   --fs-xl: 2.4rem;
   --fs-2xl: 4rem;
+
+  --py-base: 1.6rem;
+  --py-lg: 2.4rem;
+  --py-xl: 4.8rem;
+
+  --px-lg: 2.4rem;
 }
 
 html {
@@ -54,7 +60,7 @@ h3 {
   line-height: 120%;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
-  letter-spacing: -0.04em;
+  letter-spacing: -0.064rem;
 }
 
 h1 {
@@ -78,10 +84,16 @@ ul[role='list'] {
   list-style: none;
 }
 
-@media (width >= 80em) {
+@media (width >= 128rem) {
   :root {
     --fs-lg: 3.2rem;
     --fs-xl: 4.8rem;
     --fs-2xl: 6.4rem;
+
+    --py-base: 2.4rem;
+    --py-lg: 4rem;
+    --py-xl: 8rem;
+
+    --px-lg: 3.2rem;
   }
 }
